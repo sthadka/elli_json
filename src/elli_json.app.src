@@ -1,0 +1,11 @@
+{application, elli_json,
+ [
+  {description, "Encodes elli body into JSON"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
